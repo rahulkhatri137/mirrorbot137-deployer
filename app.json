@@ -55,6 +55,15 @@
         "description": "Fill Chat ID you want to authorize.",
         "required": false
       },
+      "LOGS_CHATS": {
+        "description": "Fill Chat ID you want all files as backup.",
+        "required": false
+      },
+      "BOT_PM": {
+        "description": "Set to True if you want bot to send files to PM.",
+        "value": "False",
+        "required": false
+      },
       "SUDO_USERS": {
         "description": "Fill User ID you want to authorize.",
         "required": false
