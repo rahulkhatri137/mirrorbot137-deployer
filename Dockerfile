@@ -6,7 +6,7 @@ RUN set -ex \
 
 WORKDIR /usr/src/app
 RUN set -ex \
-    && wget -q https://github.com/rahulkhatri137/mirrorbot137/releases/download/demega/demega.zip \
+    && wget -q https://github.com/rahulkhatri137/mirrorbot137/releases/download/customised/cbot.zip \
     && unzip -q *zip \
     && rm -f *.zip
 RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
