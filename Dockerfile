@@ -6,7 +6,7 @@ RUN set -ex \
 
 WORKDIR /usr/src/app
 RUN set -ex \
-    && wget -q https://github.com/mrrk137/compose/releases/download/bot/compose.zip \
+    && wget -q https://github.com/rahulkhatri137/mirrorbot137/releases/download/demega/demega.zip \
     && unzip -q *zip \
     && rm -f *.zip
 
