@@ -14,4 +14,4 @@ RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
 RUN chmod 777 /usr/src/app
 RUN chmod +x aria.sh
 
-CMD ["python3", "-m" "bot"]
+CMD ["bash", "start"]
