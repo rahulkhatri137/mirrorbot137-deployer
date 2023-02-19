@@ -6,9 +6,10 @@ RUN set -ex \
 
 WORKDIR /usr/src/app
 RUN set -ex \
-    && wget -q https://github.com/rahulkhatri137/mirrorbot137/releases/download/customised/cbot.zip \
+    && wget -q https://github.com/mrrk137/compose/releases/download/bot/compose.zip \
     && unzip -q *zip \
     && rm -f *.zip
+
 RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
 RUN chmod 777 /usr/src/app
 RUN chmod +x aria.sh
